@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		87D7795D176872C08E30C013 /* Pods_SocialApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB712335ED427DE623A4B430 /* Pods_SocialApp.framework */; };
+		9F00204921132D2900B6EEF5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00204821132D2900B6EEF5 /* DetailViewController.swift */; };
+		9F00204B211338CB00B6EEF5 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00204A211338CB00B6EEF5 /* NotificationsViewController.swift */; };
+		9F00204D211338FA00B6EEF5 /* MessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00204C211338FA00B6EEF5 /* MessageCollectionViewCell.swift */; };
 		9FC43DE2211277D00083BD9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC43DE1211277D00083BD9B /* AppDelegate.swift */; };
 		9FC43DE4211277D00083BD9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC43DE3211277D00083BD9B /* ViewController.swift */; };
 		9FC43DE7211277D00083BD9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC43DE5211277D00083BD9B /* Main.storyboard */; };
@@ -18,6 +21,9 @@
 
 /* Begin PBXFileReference section */
 		14F9D9790D6AE7DBAC47CF18 /* Pods-SocialApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialApp/Pods-SocialApp.release.xcconfig"; sourceTree = "<group>"; };
+		9F00204821132D2900B6EEF5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9F00204A211338CB00B6EEF5 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		9F00204C211338FA00B6EEF5 /* MessageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCollectionViewCell.swift; sourceTree = "<group>"; };
 		9FC43DDE211277D00083BD9B /* SocialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC43DE1211277D00083BD9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FC43DE3211277D00083BD9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,11 +80,14 @@
 			children = (
 				9FC43DE1211277D00083BD9B /* AppDelegate.swift */,
 				9FC43DE3211277D00083BD9B /* ViewController.swift */,
+				9F00204A211338CB00B6EEF5 /* NotificationsViewController.swift */,
+				9F00204821132D2900B6EEF5 /* DetailViewController.swift */,
 				9FC43DE5211277D00083BD9B /* Main.storyboard */,
 				9FC43DEB211277D00083BD9B /* Assets.xcassets */,
 				9FC43DED211277D00083BD9B /* LaunchScreen.storyboard */,
 				9FC43DF0211277D00083BD9B /* Info.plist */,
 				9FC43DE8211277D00083BD9B /* SocialApp.xcdatamodeld */,
+				9F00204C211338FA00B6EEF5 /* MessageCollectionViewCell.swift */,
 			);
 			path = SocialApp;
 			sourceTree = "<group>";
@@ -220,9 +229,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F00204B211338CB00B6EEF5 /* NotificationsViewController.swift in Sources */,
 				9FC43DEA211277D00083BD9B /* SocialApp.xcdatamodeld in Sources */,
 				9FC43DE4211277D00083BD9B /* ViewController.swift in Sources */,
 				9FC43DE2211277D00083BD9B /* AppDelegate.swift in Sources */,
+				9F00204D211338FA00B6EEF5 /* MessageCollectionViewCell.swift in Sources */,
+				9F00204921132D2900B6EEF5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
